@@ -9,10 +9,10 @@ BUILDDIR      = ../docs
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-ghpages: html copy_docs publish
+ghpages: clean html copy_docs publish
 
 copy_docs:
-	cp -r ../docs/html/* ../docs
+	cp -R ../docs/html/ ../docs
 
 publish:
 	cd .. && git add . && git commit -m "rebuilt documentaion" && git push
