@@ -10,4 +10,4 @@ approach.
 
 PS: implementation of proposed architectures will be specific.
 
-
+Continue here: https://kra3.github.io/system_design_legos/

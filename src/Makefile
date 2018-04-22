@@ -15,7 +15,7 @@ copy_docs:
 	cp -r ../docs/html/* ../docs
 
 publish:
-	git add . && git commit -m "rebuilt documentaion" && git push
+	cd .. && git add . && git commit -m "rebuilt documentaion" && git push
 
 .PHONY: help Makefile ghpages
 
