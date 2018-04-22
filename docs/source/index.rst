@@ -1,20 +1,27 @@
-.. scraping architecture documentation master file, created by
-   sphinx-quickstart on Sun Apr 22 22:11:56 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. _index:
 
-Welcome to scraping architecture's documentation!
-=================================================
+.. include:: ../../README.rst
+
+
+.. _scrape_and_big_data:
+
+Scrape & Big-data analysis
+-----------------------------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents
 
+   scrape_and_big_data/problem_statement
+   scrape_and_big_data/solution
+   scrape_and_big_data/single_node_architecture
+   scrape_and_big_data/distributed_architecture
 
+.. more:
 
-Indices and tables
-==================
+More [TBD]
+-----------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents
