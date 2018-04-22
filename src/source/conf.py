@@ -15,7 +15,7 @@ extensions = [
     'sphinxcontrib.blockdiag',
 ]
 
-templates_path = ['_templates']
+templates_path = ['templates']
 source_suffix = '.rst'
 master_doc = 'index'
 language = None
@@ -34,7 +34,7 @@ html_theme_options = {
     'show_related': True
 }
 
-html_static_path = ['_static']
+html_static_path = ['static']
 
 # html_sidebars = {}
 html_sidebars = {
